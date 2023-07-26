@@ -1,0 +1,11 @@
+/**this is css file*/
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:url(../img/webbg.jpg) transparent;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+}
