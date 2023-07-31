@@ -39,23 +39,22 @@ header img{
     height: 40px;
 }
 
-.container{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-}
-
-.container div{
+.user{
     display: flex;
     flex-direction: row;
-    margin: 20px;
     align-items: center;
-    justify-content: center;
+    width: 220px;
+    justify-content: space-around;
 }
 
-.container input{
-    height: 24px;
-    width: 180px;
+.user img{
+    margin-left: 15px;
+}
+
+.container{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 65%;
 }
